@@ -1,0 +1,14 @@
+public class Calc {
+    
+    public static int add(int number, int number2) {
+        return number+number2;
+    }
+}
+
+public class CalcTest {
+
+    @Test public void testAdd() {
+        asserTrue("Addition of the values are wront", 5==Calc.add(2,3));
+    }
+
+}
